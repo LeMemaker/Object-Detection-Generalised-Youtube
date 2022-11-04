@@ -14,7 +14,7 @@ TEST_DATASET_PATH = f'{cwd}/dataset/test'
 MODEL_PATH = f'{cwd}/model'
 
 MODEL = 'efficientdet_lite0'
-MODEL_NAME = 'redCone.tflite'
+MODEL_NAME = 'redCone.tfjs'
 CLASSES = ['redCone']
-EPOCHS = 20
-BATCH_SIZE = 4
+EPOCHS = 30
+BATCH_SIZE = 20
